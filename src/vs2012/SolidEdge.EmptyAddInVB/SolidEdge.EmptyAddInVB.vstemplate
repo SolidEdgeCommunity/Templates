@@ -1,0 +1,31 @@
+﻿<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>EmptyAddIn</Name>
+    <Description>Empty Solid Edge AddIn</Description>
+    <Icon>SolidEdge.EmptyAddInVB.ico</Icon>
+    <ProjectType>VisualBasic</ProjectType>
+    <TemplateID>c3297420-4aea-4fd4-840a-68edca019eb3</TemplateID>
+    <SortOrder>1000</SortOrder>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>EmptyAddIn</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <RequiredFrameworkVersion>4.0</RequiredFrameworkVersion>
+  </TemplateData>
+  <TemplateContent>
+    <Project File="ProjectTemplate.vbproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="addin.manifest" OpenInEditor="true" OpenOrder="2">addin.manifest</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MyAddIn.vb" OpenInEditor="true" OpenOrder="1">MyAddIn.vb</ProjectItem>
+      <Folder Name="My Project" TargetFolderName="My Project">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.vb">AssemblyInfo.vb</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="packages.config">packages.config</ProjectItem>
+      <Folder Name="Resources" TargetFolderName="Resources">
+        <Folder Name="EdgeBar" TargetFolderName="EdgeBar">
+        </Folder>
+        <Folder Name="Ribbon" TargetFolderName="Ribbon">
+        </Folder>
+      </Folder>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
