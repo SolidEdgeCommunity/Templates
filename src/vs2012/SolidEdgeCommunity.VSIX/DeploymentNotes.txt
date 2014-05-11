@@ -1,0 +1,5 @@
+﻿You must run the following PowerShell script on the compiled .vsix because it contains multiple project templates.
+
+http://www.dwmkerr.com/managing-vsix-deployments-with-powershell/
+$vsixPath = "%FULL_PATH%\Release\SolidEdgeCommunity.Templates.vsix"
+Vsix-FixInvalidMultipleFiles -VsixPath $vsixPath

@@ -15,7 +15,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>SolidEdgeCommunity</RootNamespace>
-    <AssemblyName>SolidEdgeCommunity</AssemblyName>
+    <AssemblyName>SolidEdgeCommunity.Templates</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <GeneratePkgDefFile>false</GeneratePkgDefFile>
     <IncludeAssemblyInVSIXContainer>false</IncludeAssemblyInVSIXContainer>
@@ -48,6 +48,7 @@
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
     </None>
+    <None Include="VsixTools.ps1" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SolidEdge.DemoAddInVB\SolidEdge.DemoAddInVB.vbproj">
@@ -80,6 +81,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="DeploymentNotes.txt" />
     <Content Include="vsix.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>

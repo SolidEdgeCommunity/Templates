@@ -84,7 +84,9 @@
     <None Include="MyAddIn.vb" />
     <None Include="packages.config" />
     <None Include="SolidEdge.DemoAddInVB.ico" />
-    <None Include="ProjectTemplate.vbproj" />
+    <None Include="ProjectTemplate.vbproj">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <VSTemplate Include="SolidEdge.DemoAddInVB.vstemplate">
