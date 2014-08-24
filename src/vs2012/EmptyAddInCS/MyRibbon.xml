@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--
+	To enable XML intellisense, use package manager console command: Install-SolidEdgeAddInRibbonSchema
+  This command adds\updates Ribbon.xsd in your project.
+  https://github.com/SolidEdgeCommunity/SolidEdge.Community/wiki/Package-Manager-Console-Powershell-Reference#install-solidedgeaddinribbonschema
+-->
+<ribbon xmlns="http://github.com/SolidEdgeCommunity/SolidEdge/Ribbon">
+  <tab name="MyTab">
+    <group name="MyGroup">
+      <!-- Note: imageId is defined in AssemblyInfo.[cs|vb] -->
+      <button id="0" size="large" label="My Button" screentip="My Button Screentip" supertip="My Button Supertip" imageId="100" />
+    </group>
+  </tab>
+</ribbon>

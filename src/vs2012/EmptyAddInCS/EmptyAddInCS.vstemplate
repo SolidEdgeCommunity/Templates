@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>Solid Edge AddIn</Name>
+    <Description>Solid Edge AddIn</Description>
+    <Icon>EmptyAddInCS.ico</Icon>
+    <ProjectType>CSharp</ProjectType>
+    <SortOrder>1000</SortOrder>
+    <TemplateID>af037c24-c0a1-4ff3-9746-acc0f7dc0509</TemplateID>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>MySolidEdgeAddIn</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <RequiredFrameworkVersion>4.0</RequiredFrameworkVersion>
+  </TemplateData>
+  <TemplateContent>
+    <Project File="ProjectTemplate.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="Properties\AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" OpenInEditor="true">MyAddIn.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" OpenInEditor="false">MyRibbon.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MyRibbon.xml">MyRibbon.xml</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Ribbon.xsd">Ribbon.xsd</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MyEdgeBarControl.cs">MyEdgeBarControl.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MyEdgeBarControl.Designer.cs">MyEdgeBarControl.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="MyEdgeBarControl.resx">MyEdgeBarControl.resx</ProjectItem>
+      <Folder Name="res" TargetFolderName="res">
+        <ProjectItem ReplaceParameters="false" TargetFileName="EdgeBar_20x20.png">EdgeBar_20x20.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Ribbon_32x32.png">Ribbon_32x32.png</ProjectItem>
+      </Folder>
+    </Project>
+  </TemplateContent>
+  <WizardExtension>
+    <Assembly>NuGet.VisualStudio.Interop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Assembly>
+    <FullClassName>NuGet.VisualStudio.TemplateWizard</FullClassName>
+  </WizardExtension>
+  <WizardData>
+    <packages repository="extension" repositoryId="SolidEdge.Community.Templates..883cc891-dbac-4d33-aaa8-88913178bcc9">
+      <package id="Interop.SolidEdge" version="107.0.1" />
+      <package id="SolidEdge.Community" version="107.0.1"/>
+    </packages>
+  </WizardData>
+</VSTemplate>

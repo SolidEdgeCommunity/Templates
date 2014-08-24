@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>Solid Edge Ribbon</Name>
+    <Description>Solid Edge Ribbon</Description>
+    <Icon>RibbonItemTemplateVB.ico</Icon>
+    <TemplateID>f038ff42-74fb-44b8-8b59-70cab09c85c6</TemplateID>
+    <ProjectType>VisualBasic</ProjectType>
+    <RequiredFrameworkVersion>4.0</RequiredFrameworkVersion>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <DefaultName>MyRibbon.vb</DefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <References>
+      <Reference>
+        <Assembly>System</Assembly>
+      </Reference>
+    </References>
+    <ProjectItem SubType="Code" TargetFileName="$fileinputname$.vb" ReplaceParameters="true">MyRibbon.vb</ProjectItem>
+    <ProjectItem SubType="Designer" TargetFileName="$fileinputname$.xml" ItemType="EmbeddedResource">MyRibbon.xml</ProjectItem>
+  </TemplateContent>
+  <WizardExtension>
+    <Assembly>NuGet.VisualStudio.Interop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Assembly>
+    <FullClassName>NuGet.VisualStudio.TemplateWizard</FullClassName>
+  </WizardExtension>
+  <WizardData>
+    <packages repository="extension" repositoryId="SolidEdge.Community.Templates..883cc891-dbac-4d33-aaa8-88913178bcc9">
+      <package id="Interop.SolidEdge" version="107.0.1" />
+      <package id="SolidEdge.Community" version="107.0.1" />
+    </packages>
+  </WizardData>
+</VSTemplate>

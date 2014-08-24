@@ -1,0 +1,13 @@
+﻿Microsoft Visual Studio 2012 SDK
+
+[To add a new project template]
+.NET Framework 4.5.1
+Add -> New Project -> Visual C# -> Extensibility -> C# Project Template
+
+
+[Using NuGet packages in Visual Studio 2012 project templates]
+http://samritchie.net/2012/09/17/nuget-packages-in-vs2012-templates/
+
+
+[Creating and Sharing Project & Item Templates] [OutputSubPath]
+http://blogs.msdn.com/b/visualstudio/archive/2010/03/04/creating-and-sharing-project-item-templates.aspx
