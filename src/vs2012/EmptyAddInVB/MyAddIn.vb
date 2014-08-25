@@ -1,12 +1,14 @@
-﻿Imports SolidEdgeCommunity.Extensions ' https://github.com/SolidEdgeCommunity/SolidEdge.Community/wiki/Using-Extension-Methods
+﻿' See https://github.com/SolidEdgeCommunity/SolidEdge.Community for documentation.
+' Useful Package Manager Console Commands: https://github.com/SolidEdgeCommunity/SolidEdge.Community/wiki/Package-Manager-Console-Powershell-Reference
+' Register-SolidEdgeAddIn
+' Unregister-SolidEdgeAddIn
+' Set-DebugSolidEdge
+' Install-SolidEdgeAddInRibbonSchema
+
+Imports SolidEdgeCommunity.Extensions ' https://github.com/SolidEdgeCommunity/SolidEdge.Community/wiki/Using-Extension-Methods
 Imports System.Runtime.InteropServices
 Imports System.Windows.Forms
 
-' See https://github.com/SolidEdgeCommunity/SolidEdge.Community for documentation.
-' To register your addin, use package manager console command: Register-SolidEdgeAddIn
-' https://github.com/SolidEdgeCommunity/SolidEdge.Community/wiki/Package-Manager-Console-Powershell-Reference#register-solidedgeaddin
-' To unregister your addin, use package manager console command: Unregister-SolidEdgeAddIn
-' https://github.com/SolidEdgeCommunity/SolidEdge.Community/wiki/Package-Manager-Console-Powershell-Reference#unregister-solidedgeaddin
 <ComVisible(True)>
 <Guid("$guid3$")>
 <ProgId("$safeprojectname$.MyAddIn")>

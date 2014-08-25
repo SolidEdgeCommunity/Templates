@@ -121,7 +121,7 @@
   </ItemGroup>
 
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
-  <Import Project="..\packages\SolidEdge.Community.107.0.1\build\net40\SolidEdge.Community.targets" Condition="Exists('..\packages\SolidEdge.Community.107.0.1\build\net40\SolidEdge.Community.targets')" />
+  <Import Project="..\packages\SolidEdge.Community.107.0.2\build\net40\SolidEdge.Community.targets" Condition="Exists('..\packages\SolidEdge.Community.107.0.2\build\net40\SolidEdge.Community.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

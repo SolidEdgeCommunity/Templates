@@ -1,4 +1,11 @@
-﻿using SolidEdgeCommunity.Extensions; // https://github.com/SolidEdgeCommunity/SolidEdge.Community/wiki/Using-Extension-Methods
+﻿// See https://github.com/SolidEdgeCommunity/SolidEdge.Community for documentation.
+// Useful Package Manager Console Commands: https://github.com/SolidEdgeCommunity/SolidEdge.Community/wiki/Package-Manager-Console-Powershell-Reference
+// Register-SolidEdgeAddIn
+// Unregister-SolidEdgeAddIn
+// Set-DebugSolidEdge
+// Install-SolidEdgeAddInRibbonSchema
+
+using SolidEdgeCommunity.Extensions; // https://github.com/SolidEdgeCommunity/SolidEdge.Community/wiki/Using-Extension-Methods
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,11 +13,6 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Windows.Forms;
 
-// See https://github.com/SolidEdgeCommunity/SolidEdge.Community for documentation.
-// To register your addin, use package manager console command: Register-SolidEdgeAddIn
-// https://github.com/SolidEdgeCommunity/SolidEdge.Community/wiki/Package-Manager-Console-Powershell-Reference#register-solidedgeaddin
-// To unregister your addin, use package manager console command: Unregister-SolidEdgeAddIn
-// https://github.com/SolidEdgeCommunity/SolidEdge.Community/wiki/Package-Manager-Console-Powershell-Reference#unregister-solidedgeaddin
 namespace $safeprojectname$
 {
     [ComVisible(true)]

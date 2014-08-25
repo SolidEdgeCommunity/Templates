@@ -35,7 +35,7 @@
   <WizardData>
     <packages repository="extension" repositoryId="SolidEdge.Community.Templates..883cc891-dbac-4d33-aaa8-88913178bcc9">
       <package id="Interop.SolidEdge" version="107.0.1" />
-      <package id="SolidEdge.Community" version="107.0.1"/>
+      <package id="SolidEdge.Community" version="107.0.2" />
     </packages>
   </WizardData>
 </VSTemplate>
