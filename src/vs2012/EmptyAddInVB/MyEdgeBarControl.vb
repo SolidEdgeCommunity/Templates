@@ -26,14 +26,12 @@ Public Class MyEdgeBarControl
         '
         Me.Controls.Add(Me.richTextBox1)
         Me.Name = "MyEdgeBarControl"
+		Me.ToolTip = "My EdgeBar Control"
         Me.ResumeLayout(False)
 
     End Sub
 
     Private Sub MyEdgeBarControl_Load(ByVal sender As Object, ByVal e As EventArgs) Handles MyBase.Load
-        ' You can set the tooltip in the designer or at runtime.
-        Me.ToolTip = "My EdgeBar Control"
-
         ' Trick to use the default system font.
         Me.Font = SystemFonts.MessageBoxFont
     End Sub

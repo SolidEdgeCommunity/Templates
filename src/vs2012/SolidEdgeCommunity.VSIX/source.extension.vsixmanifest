@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="SolidEdge.Community.Templates..883cc891-dbac-4d33-aaa8-88913178bcc9" Version="107.0.2" Language="en-US" Publisher="Jason Newell" />
+    <Identity Id="SolidEdge.Community.Templates..883cc891-dbac-4d33-aaa8-88913178bcc9" Version="107.0.3" Language="en-US" Publisher="Jason Newell" />
     <DisplayName>Solid Edge Community Templates</DisplayName>
     <Description xml:space="preserve">Community provided project and item templates for Solid Edge.</Description>
     <Icon>vsix.png</Icon>

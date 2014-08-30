@@ -19,9 +19,6 @@ namespace $safeprojectname$
 
         private void MyEdgeBarControl_Load(object sender, EventArgs e)
         {
-            // You can set the tooltip in the designer or at runtime.
-            this.ToolTip = "My EdgeBar Control";
-
             // Trick to use the default system font.
             this.Font = SystemFonts.MessageBoxFont;
         }

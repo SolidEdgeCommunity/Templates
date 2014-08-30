@@ -46,6 +46,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.richTextBox1);
             this.Name = "MyEdgeBarControl";
+			this.ToolTip = "My EdgeBar Control";
             this.AfterInitialize += new System.EventHandler(this.MyEdgeBarControl_AfterInitialize);
             this.Load += new System.EventHandler(this.MyEdgeBarControl_Load);
             this.ResumeLayout(false);
