@@ -115,7 +115,7 @@ namespace $safeprojectname$
         [ComRegisterFunction]
         public static void OnRegister(Type type)
         {
-            string title = "My title";
+            string title = type.FullName;
             string summary = "My summary";
             var enabled = true; // You have the option to register the addin in a disabled state.
 

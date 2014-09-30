@@ -45,10 +45,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="packages\Interop.SolidEdge.107.0.1.nupkg">
+    <Content Include="packages\Interop.SolidEdge.107.1.0.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="packages\SolidEdge.Community.107.0.2.nupkg">
+    <Content Include="packages\SolidEdge.Community.107.1.0.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <None Include="source.extension.vsixmanifest">

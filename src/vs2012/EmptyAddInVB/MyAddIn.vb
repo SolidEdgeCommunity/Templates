@@ -96,7 +96,7 @@ Public Class MyAddIn
     ''' </summary>
     <ComRegisterFunction> _
     Public Shared Sub OnRegister(ByVal t As Type)
-        Dim title As String = "My title"
+        Dim title As String = t.FullName
         Dim summary As String = "My summary"
         Dim enabled = True ' You have the option to register the addin in a disabled state.
 
