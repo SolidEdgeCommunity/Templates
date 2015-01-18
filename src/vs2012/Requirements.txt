@@ -1,0 +1,1 @@
+These projects require the Microsoft Visual Studio 2013 SDK to be installed before opening. http://www.microsoft.com/en-us/download/details.aspx?id=40758
