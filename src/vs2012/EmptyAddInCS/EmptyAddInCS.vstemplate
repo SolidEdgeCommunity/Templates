@@ -34,8 +34,9 @@
   </WizardExtension>
   <WizardData>
     <packages repository="extension" repositoryId="SolidEdge.Community.Templates..883cc891-dbac-4d33-aaa8-88913178bcc9">
-      <package id="Interop.SolidEdge" version="107.3.0" />
-      <package id="SolidEdge.Community" version="107.3.0" />
+      <package id="Interop.SolidEdge" version="109.0.0" />
+      <package id="SolidEdge.Community" version="109.0.0" />
+      <package id="SolidEdge.Community.AddIn" version="109.0.0" />
     </packages>
   </WizardData>
 </VSTemplate>
